@@ -2,7 +2,7 @@ from Functions import *
 
 while True:
     print("What files would you like to sort? Type Stop to exit.")
-    print("Images, Documents, Speadsheets, Installers, Music, Videos, All")
+    print("Images, Documents, Spreadsheets, Installers, Music, Videos, All")
     type = input().lower()
     if type == "stop":
         break
